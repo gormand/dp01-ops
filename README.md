@@ -533,9 +533,6 @@ spec:
       - Replace=true
 ```
 
-In your GitHub repository, replace `dp-auto` with your Git user id and deploy it to the cluster:
-(**Add push commands**)
-
 Notice how the this Argo application will be monitoring GitHub for resources to deploy to the cluster:
 
 ```yaml
@@ -564,7 +561,7 @@ which will complete with:
 application.argoproj.io/dp01-argo created
 ```
 
-We now have an ArgoCD application monitoring our repository.
+We now have an ArgoCD application monitoring our repository, e.g. `https://github.com/odowdaibm/dp01-ops.git`. 
 
 ## View dp01-argo in ArgoCD UI
 
